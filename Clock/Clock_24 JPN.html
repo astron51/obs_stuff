@@ -1,0 +1,81 @@
+<!-- OBS Clock -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-16" />
+<title>Time 24 JPN</title>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+#date{
+	color: #000;
+	font-size: 22px;
+	font-weight: 550;
+	font-family: 'Microsoft YaHei';
+}
+</style>
+</head>
+<body>
+	<div style="position:relative; left:5px; top:2px;">
+		<p id="date"/>
+	</div>
+  <script language="JavaScript">
+  var yyyymmddhhmiss = function() {
+    var date = new Date();
+    var yyyy = date.getFullYear();
+    var mm = toDoubleDigits(date.getMonth() + 1);
+    var dd = toDoubleDigits(date.getDate());
+	var PrimedDay;
+	switch(date.getDay()){
+		case 0:
+			// Sunday 日
+			PrimedDay = "日";
+		break;
+		case 1:
+			// Monday 月
+			PrimedDay = "月";
+		break;
+		case 2:
+			// Tuesday 火
+			PrimedDay = "火";
+		break;
+		case 3:
+			// Wednesday 水
+			PrimedDay = "水";
+		break;
+		case 4:
+			// Thursday 木
+			PrimedDay = "木";
+		break;
+		case 5:
+			// Friday 金
+			PrimedDay = "金";
+		break;
+		case 6:
+			// Saturday 土
+			PrimedDay = "土";
+		break;
+		default:
+			PrimedDay = "不詳";
+		break;
+	}
+	
+    var hh = toDoubleDigits(date.getHours());
+    var mi = toDoubleDigits(date.getMinutes());
+    var ss = toDoubleDigits(date.getSeconds())
+    var element = document.getElementById("date");
+    element.innerHTML = yyyy + '.' + mm + '.' + dd + '(' + PrimedDay + ') ' + hh + ':' + mi + ':' + ss;
+  };
+  var toDoubleDigits = function(num) {
+    num += "";
+    if (num.length === 1) {
+      num = "0" + num;
+    }
+   return num;
+  };
+  setInterval(yyyymmddhhmiss, 1000);
+  </script>
+</body>
+</html>
