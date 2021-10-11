@@ -9,7 +9,8 @@ I am curious how Zentreya from VShojo able to synthesize her voice into TTS, so 
 1) Create and download the Service Account Key ( In Json Format )
 2) Replace the ServiceAccount.json within the Bin Folder
 3) Launch Soundpad
-4) Launch STTTS
+4) Setup a hotkey that will simulate Pressing F24
+5) Launch STTTS
 
 # Screenshot
 ![obs](https://i.imgur.com/v01CKnF.png)
