@@ -2,8 +2,8 @@
 I am curious how Zentreya from VShojo able to synthesize her voice into TTS, so after spending some time with Google API, I created this application. It use Google's Speech-To-Text and Text-To-Speech API to mimic how Zentreya talk. It will also output a Text File which You can use to display in OBS or other Streaming Application.
 
 # Prerequisite
-• Google Cloud Service Account
-• Valid Copies of [Soundpad](https://store.steampowered.com/app/629520/Soundpad/)
+- Google Cloud Service Account
+- Valid Copies of [Soundpad](https://store.steampowered.com/app/629520/Soundpad/)
 
 # Setup
 1) Create and download the Service Account Key ( In Json Format )
