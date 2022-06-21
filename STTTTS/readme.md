@@ -6,7 +6,7 @@ I am curious how Zentreya from VShojo able to synthesize her voice into TTS, so 
 - Valid Copies of [Soundpad](https://store.steampowered.com/app/629520/Soundpad/)
 
 # Setup
-1) Create and download the Service Account Key ( In Json Format )
+1) Add Key in Service Account and download Key in Json Format
 2) Replace the ServiceAccount.json within the Bin Folder
 3) Launch Soundpad
 4) Setup a hotkey that will simulate Pressing F24
