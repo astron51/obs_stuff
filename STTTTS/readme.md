@@ -1,5 +1,6 @@
 # Speech-To-Text-To-Speech
 I am curious how Zentreya from VShojo able to synthesize her voice into TTS, so after spending some time with Google API, I created this application. It use Google's Speech-To-Text and Text-To-Speech API to mimic how Zentreya talk. It will also output a Text File which You can use to display in OBS or other Streaming Application.
+Please raise Issue if there are any bugs. Made with love from astron51
 
 # Prerequisite
 - Google Cloud Service Account
