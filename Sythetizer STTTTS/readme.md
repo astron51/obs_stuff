@@ -17,4 +17,5 @@ Please raise Issue if there are any bugs. Made with love from astron51
 Well, It's a mess and I planned to rework it with a user interface in the future. But if you really wanna get your hand on the source code, just open an issue and ask for it, It's free anyway.
 
 # Screenshot
+[Video Demo](www.youtube.com/watch?v=e2xhDC9wa1g)
 ![obs](https://i.imgur.com/v01CKnF.png)
