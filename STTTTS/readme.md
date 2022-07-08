@@ -16,5 +16,8 @@ Please raise Issue if there are any bugs. Made with love from astron51
 # Where's the damn source!
 Well, It's a mess and I planned to rework it with a user interface in the future. But if you really wanna get your hand on the source code, just open an issue and ask for it, It's free anyway.
 
+# Issue
+The automatic mode is broken due to unknown reason. When I finished this project in alpha stage the auto mode is in working order, but after throwing it behind my piles of projects from my work it just broke itself. Will fix it but definately not now.
+
 # Screenshot
 ![obs](https://i.imgur.com/v01CKnF.png)
