@@ -13,5 +13,8 @@ Please raise Issue if there are any bugs. Made with love from astron51
 4) Setup a hotkey that will simulate Pressing F24
 5) Launch STTTS
 
+# Where's the damn source!
+Well, It's a mess and I planned to rework it with a user interface in the future. But if you really wanna get your hand on the source code, just open an issue and ask for it, It's free anyway.
+
 # Screenshot
 ![obs](https://i.imgur.com/v01CKnF.png)
