@@ -3,7 +3,7 @@ I am curious how Zentreya from VShojo able to synthesize her voice into TTS, so 
 Please raise Issue if there are any bugs. Made with love from astron51
 
 # Prerequisite
-- Google Cloud Service Account
+- Google Cloud Service Account ( You can get one from me, limited quantities )
 - Valid Copies of [Soundpad](https://store.steampowered.com/app/629520/Soundpad/)
 
 # Setup
